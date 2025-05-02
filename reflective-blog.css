@@ -195,7 +195,7 @@ a:hover{
 .quote{
     text-align: justify;
     color: white;
-    font-size: 25px;
+    font-size: larger;
     padding-top: 100px;
     padding-left: 400px;
     font-family: cursive;
