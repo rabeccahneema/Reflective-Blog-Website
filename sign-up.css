@@ -1,0 +1,217 @@
+body{
+    margin: 0%;
+ 
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(" Image-folder/side-view-woman-reading-book.jpg" );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vw;
+}
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(12, 75, 100);
+    /* padding: 6px 6px; */
+    position: sticky;
+    top: 0;
+    z-index: 999; 
+
+   
+}
+.nav {
+    padding: 15px;
+    padding-right: 150px;
+    word-spacing: 50px;
+   
+    
+    a{
+    font-size: large;
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+}
+a:hover{
+    transform: scale(1.2s);
+    color: green;
+}
+.heading{
+    color:white;
+    font-size: larger;
+    font-family:system-ui, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+} 
+.head{
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family: cursive;
+        color: goldenrod;
+        font-size: 50px;
+        padding-top: 0px;
+
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: cursive;
+        font-size: xx-large;
+        /* padding-top: 50px; */
+
+    }
+}
+.signup-form{
+    p{
+        display: flex;
+        /* justify-content: center; */
+        color: rgb(68, 216, 209);
+        font-size: larger;
+        font-family: cursive;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+   
+   label{
+        color:white
+    }
+    input{
+        width: 15%;
+        padding: 12px 14px;
+        /* background-color: rgb(7, 7, 7); */
+        color: rgb(17, 16, 16);
+        border: solid 1px white;
+        transition: border-color 60s ease;
+        border-radius: 8px;
+    }
+  
+}
+.country{
+    width: 15%;
+    padding: 10px 12px;
+    color: rgb(56, 54, 54);
+    background-color: rgb(248, 243, 243);
+    border-radius: 8px;
+}
+.input:focus{
+    border-color:green;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+.sign-up-button button{
+    background: none;
+    border: none;
+    background-color:goldenrod;
+    width: 12%;
+    color: rgb(12, 75, 100);
+    padding: 13px 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+  
+}
+.foot{
+    background-image: url("Image-folder/galaxy-night-landscape.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     padding-top: 10px;
+     padding-bottom: 30px;
+     height: 17vw;
+
+ }
+ .footer{
+     display: flex;
+     gap: 2cm;
+     justify-content: center;
+     font-family: cursive;
+     
+    
+ }
+ .menu{
+     
+     h3{
+         font-size: x-large;
+         color:rgb(22, 133, 185);
+ 
+     }
+     a{
+         text-decoration: none;
+         color: white;
+         font-size: larger;
+ 
+     }
+     a:hover{
+         transform: scale(1.2s);
+         color: green;
+     }
+ }
+ .contacts{
+     p a{
+         text-decoration: none;
+         color: white;
+         font-size: larger;
+     }
+     a:hover{
+         transform: scale(1.2s);
+         color: green;
+     }
+     h3{
+         font-size: x-large;
+         color: rgb(22, 133, 185);
+ 
+     }
+     p{
+         color: white;
+         font-size: larger;
+ 
+     }
+ 
+ }
+ .icons{
+     padding-left: 100px;
+     /* display: flex; */
+     gap: 20px;
+     h4{
+         color: rgb(22, 133, 185);
+         font-size: x-large;
+     }
+     /* border-radius: 3px;
+     border: rgb(1, 65, 33); */
+     /* box-shadow: 0 1px 2px rgb(13, 48, 88); */
+ }
+ .last{
+     display: flex;
+     justify-content: center;
+     gap: 2cm;
+     font-family: cursive;
+     font-size: larger;
+     color: white;
+     background-color: rgb(8, 8, 8);
+     margin-bottom: 0%;
+     padding: 5px;
+     a{
+         text-decoration: none;
+         color:  rgb(22, 133, 185);
+     }
+     /* background-image: url("pexels-njeromin-15352968.jpg"); */
+     /* background-position: center; */
+     /* background-size: cover; */
+     /* background-repeat: no-repeat; */
+ }

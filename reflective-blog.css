@@ -1,0 +1,351 @@
+body{
+    margin: 0%;
+     background-image: url("Image-folder/old-cement-wall-texture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgb(155, 154, 154); */
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(12, 75, 100);
+    /* padding: 6px 6px; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+   
+   
+}
+.nav {
+    padding: 15px;
+    padding-right: 150px;
+    word-spacing: 40px;
+   
+    
+    a{
+    font-size: large;
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+}
+a:hover{
+    transform: scale(1.2s);
+    color: green;
+}
+.head{
+    color:white;
+    font-size: larger;
+    font-family:system-ui, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+.homey{
+    background-image: url("Image-folder/grayscale-shot-books.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 40vw;
+}
+ /* .tittlepic{
+    
+    img{
+        position: absolute;
+    } */
+    /* h5{
+        position: relative;
+        transform: skewy(8deg);
+   transform-origin: 50%,50%;
+   box-shadow: 0 2px 16px rgb(99, 97, 97);
+     padding-left: 5px;
+    font-size: x-large;
+    color: rgb(12, 75, 100);
+   margin-top: 14%;
+   text-align: center;
+   /* justify-content: center;  */
+ .tittlepic{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    img{
+        position: absolute;
+        box-shadow: 8px 0 16px rgb(158, 155, 155);
+        
+    }
+    h5{
+        position: relative;
+        text-align: center;
+        padding-left: 5px;
+       margin-top: 1%;
+        font-size: x-large;
+        color: rgb(5, 48, 65);
+       
+    }
+ }
+
+.tittle{
+    /* background-image: url("Image-folder/pexels-steve-30018091.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgb(5, 48, 65) ;
+    /* width: 70%; */
+    height: 40vw;
+    padding-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    
+}
+.tittleexplain{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+    
+
+}
+
+.home{
+   /* display: flex;  */
+   padding-top: 120px;
+   /* justify-content: space-around; */
+   /* img{
+   transform: skewy(8deg);
+   transform-origin: 50%,50%;
+   box-shadow: 0 2px 16px rgb(112, 110, 110);
+   } */
+}
+.homecontent{
+    color: white;
+    padding-left: 50px;
+    font-family: cursive;
+    
+       
+      
+    h2{
+        font-size: 30px;
+        text-align: justify;
+        
+
+    }
+    h1{
+        font-size: 45px;
+        font-weight: lighter;
+        text-align: justify;
+        padding-right: 40px;
+    }
+  
+
+}
+
+.button{
+     display: flex; 
+     justify-content: flex-end; 
+    padding-right: 40px;
+    a{
+        color: rgb(252, 249, 249);
+        text-decoration: none;
+        font-family: cursive;
+        font-weight: bold;
+    }
+}
+.button button {
+    background: none;
+    border: solid 2;
+    background-color: rgb(12, 75, 100);
+    width: 13%;
+    color: rgb(123, 134, 134);
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+   
+    /* box-shadow: 0 2px 4px rgb(105, 103, 103); */
+}
+.qoutey{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.border{
+    img{
+        border-radius: 35px;
+        box-shadow: 0 4px 8px  rgb(105, 89, 89);
+    }
+}
+.insights{
+    border: solid 0.5px rgb(53, 52, 50);
+    /* border-radius: 10px; */
+    background-image: url("Image-folder/BECKY.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.quote{
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 400px;
+    font-family: cursive;
+    p{
+    border: none;
+    background-color:rgb(12, 75, 100) ;
+    box-shadow: 0 4px 8px rgb(99, 97, 97);
+    border-radius: 40px;
+    padding: 20px;
+    text-align: left;
+    
+}
+h1{
+    color: white(12, 75, 100);
+    font-size: 60px;
+    font-weight: bolder;
+}
+}
+.abel{
+    background-image: url("Image-folder/pexels-njeromin-15352968.jpg");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* width: 100%; */
+    height: 44vw;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.insights{
+    /* background-image: url(""); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* margin-top: 0%; */
+    padding-bottom: 30px;
+
+}
+.quoteexplain{
+   margin-top: 0;
+   
+    color: white;
+    font-family: cursive;
+    h1{
+        font-size: 40px;
+        font-weight: lighter;
+        padding-top: 30px;
+        padding-left: 20px;
+}
+}
+.support{
+    font-size: 20px;
+    text-align: right;
+   text-shadow: 0 1px 3px rgb(56, 59, 59);
+   font-weight: lighter;
+   padding-right: 50px;
+}
+.defiance{
+    font-size: 20px;
+    text-align: left;
+   text-shadow: 0 1px 3px rgb(97, 100, 102);
+   font-weight: lighter;
+   padding-left: 50px;
+
+}
+.foot{
+   background-image: url("Image-folder/galaxy-night-landscape.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 17vw;
+}
+.footer{
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    font-family: cursive;
+   
+}
+.menu{
+    
+    h3{
+        font-size: x-large;
+        color:rgb(22, 133, 185);
+
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+
+    }
+    a:hover{
+        transform: scale(1.2s);
+        color: green;
+    }
+}
+.contacts{
+    p a{
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+    }
+    a:hover{
+        transform: scale(1.2s);
+        color: green;
+    }
+    h3{
+        font-size: x-large;
+        color: rgb(22, 133, 185);
+
+    }
+    p{
+        color: white;
+        font-size: larger;
+
+    }
+
+}
+.icons{
+    padding-left: 100px;
+    /* display: flex; */
+    gap: 20px;
+    h4{
+        color: rgb(22, 133, 185);
+        font-size: x-large;
+    }
+    /* border-radius: 3px;
+    border: rgb(1, 65, 33); */
+    /* box-shadow: 0 1px 2px rgb(13, 48, 88); */
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 2cm;
+    font-family: cursive;
+    font-size: larger;
+    color: white;
+    background-color: rgb(8, 8, 8);
+    margin-bottom: 0%;
+    padding: 5px;
+    a{
+        text-decoration: none;
+        color:  rgb(22, 133, 185);
+    }
+    /* background-image: url("pexels-njeromin-15352968.jpg"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
