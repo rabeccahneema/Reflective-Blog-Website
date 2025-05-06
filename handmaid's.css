@@ -1,0 +1,508 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navbar {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 20px;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    word-spacing: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+a:hover {
+    transform: scale(2s);
+    color: white;
+    font-weight: bold;
+} */
+
+.handmaidheader {
+    background-color: red;
+    height: 6cm;
+    z-index: 1;
+}
+
+.background {
+    background-color: rgb(196, 190, 190);
+    position: absolute;
+    top: 6cm;
+    width: 100%;
+    height: 12.4cm;
+    z-index: -1;
+}
+
+.handmaid {
+    width: 400px;
+    height: 16.3cm;
+    margin-left: 20cm;
+    box-shadow: 10px 10px 10px black;
+
+
+}
+
+.about {
+    width: 13cm;
+    padding: 10px;
+    position: absolute;
+    top: 12.5cm;
+    background-color: rgb(95, 94, 94);
+    border-radius: 5px;
+    left: 5.5cm;
+    color: white;
+}
+
+#atwood {
+    line-height: 0.6cm;
+    color: rgb(5, 5, 5);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.aboutinsidediv {
+    border: solid white 1px;
+    padding: 10px;
+}
+
+
+
+.patriachytheme {
+    display: flex;
+    margin-top: 10cm;
+    padding-top: 8cm;
+    gap: 1cm;
+}
+
+.themeleftdiv {
+    margin-left: 3cm;
+    border-right: solid;
+    padding-right: 2cm;
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+#partriparagraph {
+    line-height: 0.7cm;
+    margin-top: 1.5cm;
+
+}
+
+.patriachy {
+    border-radius: 20px;
+}
+
+.powertheme {
+    display: flex;
+    margin-top: 5cm;
+    gap: 1cm;
+}
+
+#powerparagraph {
+    line-height: 0.7cm;
+    margin-top: 3.5cm;
+
+}
+
+.powleftdiv {
+    margin-left: 3cm;
+    border-right: solid;
+    padding-right: 4.3cm;
+}
+
+.power {
+    width: 20cm;
+    height: 10cm;
+    border-radius: 20px;
+}
+
+.feartheme {
+    display: flex;
+    margin-top: 4cm;
+    gap: 1cm;
+}
+
+.fear {
+    width: 625px;
+    border-radius: 20px;
+    margin-left: 3cm;
+}
+
+.fearleftdiv {
+
+    border-right: solid;
+    padding-right: 2cm;
+}
+
+.fearleftdiv h2 {
+    margin-left: 3cm;
+}
+
+#fearparagraph {
+    line-height: 0.7cm;
+    margin-top: 1.9cm;
+
+}
+.religiontheme{
+    display: flex;
+    margin-left: 3cm;
+    margin-top: 4cm;
+    gap: 1cm;
+}
+.religion{
+    width: 770px;
+    border-radius: 20px;
+}
+.religionparagraph{
+    border-right: solid;
+    padding-right: 3.9cm;
+}
+#religionparagraph{
+    line-height: 0.7cm;
+    margin-top: 1.9cm;
+}
+.lossofagencytheme{
+    display: flex;
+    margin-left: 3cm;
+    margin-top: 4cm;
+    gap: 1cm;
+}
+.agencyleftdiv{
+    border-right: solid;
+    padding-right: 2.7cm;
+}
+.lossofagency{
+    width: 600px;
+    border-radius: 20px;
+    height: 11cm;
+}
+#agencyparagraph{
+    line-height: 0.7cm;
+}
+
+
+/*  */
+.best_seller{
+    text-align: center;
+    line-height: 40px;
+ }
+ .best_seller h1{
+     margin: 0 25%;
+      text-align: center;
+    line-height: 50px;
+ }
+ .best_seller p{
+     margin: 0 25%;
+     font-size: 17px;
+     color: rgb(80,80,80);
+ }
+ .seller-button{
+     margin-top: 3%;
+ }
+ .book-images{
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 5%;
+     margin-left: 30%;
+     margin-top: 5%;
+     /* margin: 0 auto; */
+     height: 20vh;
+     /* margin: 0 25%; */
+ }
+ #view_books{
+     background-color: red;
+     width: 12%;
+     color: white;
+     align-self: center;
+     border-radius: 25px;
+     height: 4vh;
+     border: none;
+     margin: 0 44%;
+ }
+ #more_button{
+     background-color: red;
+     width: 50%;
+     color: white;
+     align-self: center;
+     border-radius: 25px;
+     height: 4vh;
+     border: none;
+     margin-top: 5%;
+ }
+ .cards_container h1{
+     text-align: center;
+     margin-top: 5%;
+ }
+ .marketing_cards{
+     display: flex;
+     gap: 7%;
+     background-color:brown;
+     /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(book_images/author_image.jpeg); */
+     background-size: cover;
+     height: 50vh;
+     width: 100%;
+     margin-top: 3%;
+     justify-content: center;
+ }
+ #card{
+     border: rebeccapurple;
+     background-color: rebeccapurple;
+     /* color: black; */
+     width: 20%;
+     height: 30vh;
+     margin: auto 0;
+     border-radius: 10px;
+ }
+ .about_author p{
+     font-size: 20px;
+     color: rgb(80,80,80);
+ }
+ .marketing_cards img{
+     width: 100%;
+     height: 30vh;
+     border-radius: 10px;
+ }
+ .author{
+     display: flex;
+     gap: 5%;
+     justify-content: center;
+     height: 80vh;
+     margin-top: -8%;
+     line-height: 30px;
+ }
+ .author h1{
+     font-size: 30px;
+ }
+ #about_author{
+     width: 22.5%;
+     /* height: 80vh; */
+     justify-content: center;
+     margin: auto 0;
+ }
+ #author_image{
+     width: 22.5%;
+     justify-content: center;
+     margin: auto 0;
+ }
+ #author_image img{
+     width: 100%;
+     border: none;
+     border-radius: 5%;
+ }
+ .footer{
+     background-color: orangered;
+     color: orangered;
+     border: 5px solid;
+     /* margin-top: -9%; */
+ }
+ .foot{
+     background-color: black;
+     color: black;
+     border: 20px solid;
+ }
+ .foot p{
+     color: white;
+     text-align: center;
+ }
+
+ .religiontheme {
+    display: flex;
+    gap: 1cm;
+}
+.themeleft{
+    margin-left: 3cm;
+    border-right: solid;
+    padding-right: 2cm;
+}
+ h2 {
+    font-size: 30px;
+}
+#religionparagraph {
+    line-height: 0.7cm;
+    margin-top: 1.5cm;
+    
+}
+.religion{
+    border-radius: 20px;
+    width: 15cm;
+    
+}
+.lossofagencytheme{
+    display: flex;
+    gap: 2cm;
+    margin-top: 2cm;
+    margin-left: 2.5cm;
+}
+.theme{
+    margin-left: 0cm;
+    border-left: solid;
+    padding-left: 0.5cm;
+}
+ h2 {
+    font-size: 30px;
+}
+#agencyparagraph {
+    line-height: 0.7cm;
+    margin-top: 1.5cm;
+    
+}
+.lossofagency{
+    border-radius: 20px;
+    width: 15cm;
+    
+}
+
+.oppression{
+    display: flex;
+    gap: 6cm;
+}
+.themeleftlast{
+    margin-left: 3cm;
+    border-right: solid;
+    padding-right: 2cm;
+}
+ h2 {
+    font-size: 30px;
+}
+#oppressionparagraph {
+    line-height: 0.7cm;
+    margin-top: 1.5cm;
+    
+}
+.oppression{
+    border-radius: 20px;
+    width: 15cm;
+    
+}
+.nav {
+    display: flex;
+    width: 50%;
+        gap: 3%;
+        border: none;
+        position: sticky;
+        z-index: 1100;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        background-color: rgb(80,80,80);
+      }
+      .nav span a{
+        font-size: 20px;
+        /* color: white; */
+      }
+     nav i {
+        font-size: 18;
+        color: white;
+      }
+.nav a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        font-family: poppins;
+      }
+     
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 260px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border: none;
+      border-radius: 30px;
+    }
+    
+    .dropdown-content a {
+      border: solid 1px grey;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: black;
+    }
+    .allThemes{
+        margin-top: -3%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    @font-face {
+        font-family:typewriter ;
+        src: url(fonts/TypewriterSerial\ Regular.ttf);
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(fonts/Poppins-Regular.ttf);
+    }
+    .allThemes p{
+font-family: poppins;
+font-size: 18px;
+color: rgb(68, 65, 65);
+    }
+    .dropdown:hover .dropdown-content {
+      background-color: white;
+      display: block;
+    }
+    .header-icons{
+      display: flex;
+      margin-left: 23%;
+  }
+  .header-icons i{
+      font-size: 23px;
+      text-decoration: none;
+      color:white; 
+  }
+  .social_icons{
+    display: flex;
+    margin-left: 70%;
+    gap: 35%;
+}
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social-links a {
+    color:white;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #FF6F61;
+}
+.social2-links {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 19%;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social2-links a {
+  color:brown;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  transition: color 0.3s;
+}
+.social2-links a:hover {
+  color: #FF6F61;
+}
