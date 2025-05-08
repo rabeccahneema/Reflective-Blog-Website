@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -45,10 +45,11 @@ body{
 }
 
 .topimage{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("Image-folder/BCK6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    height: 50vw;
     width: 100%;
 }
 
@@ -66,12 +67,13 @@ body{
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
     
 }
 
 .qoutes p{
-    font-size: xx-large;
+    font-size: x-large;
     color: white;
     text-align: justify;
 }
@@ -100,7 +102,7 @@ body{
 .summary button{
     background-color:rgb(69, 123, 155);;
     color: black;
-    border-radius: 28px;
+    /* border-radius: 28px; */
     padding: 15px;
     border-color: rgb(69, 123, 155);
     position: absolute;
@@ -131,31 +133,33 @@ body{
 }
 
 .issues{
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("photos/trevorphoto.jpg");
-    background-repeat: repeat;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url("Image-folder/trevorphoto.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
     /* background-color: blue; */
     background-size: cover;
-    height: 230vh;
+    height: 120vw;
+    width: 100%;
 }
 
 .issue1{
     background-color: whitesmoke;
     color:rgb(80,80,80) ;
     position: absolute;
-    padding: 40px;
+    padding: 30px;
     left: 5cm;
     top: 75cm;
-    font-size: 20px;
+    font-size: medium;
     border-radius: 13px;
 }
 
 .issue2{
     background-color: whitesmoke;
     position: absolute;
-    padding: 40px;
+    padding: 30px;
     left: 10cm;
     top: 85cm;
-    font-size: 20px;
+    font-size:medium;
     color:rgb(80,80,80) ;
     border-radius: 13px;
 }
@@ -163,10 +167,10 @@ body{
 .issue3{
     background-color: whitesmoke;
     position: absolute;
-    padding: 40px;
+    padding: 30px;
     left: 15cm;
     top: 97cm;
-    font-size: 20px;
+    font-size: medium;
     color:rgb(80,80,80) ;
     border-radius: 13px;
 }
@@ -174,10 +178,10 @@ body{
 .issue4{
     background-color: whitesmoke;
     position: absolute;
-    padding: 40px;
+    padding: 30px;
     left: 20cm;
     top: 106cm;
-    font-size: 20px;
+    font-size: medium;
     color:rgb(80,80,80) ;
     border-radius: 13px;
 }
@@ -185,12 +189,13 @@ body{
 .issue5{
     background-color: whitesmoke;
     position: absolute;
-    padding: 40px;
+    padding: 30px;
     left: 25cm;
     top: 119cm;
-    font-size: 20px;
+    font-size: medium;
     color:rgb(80,80,80) ;
     border-radius: 13px;
+    padding-bottom: 10px;
 }
 
 .phrases{
@@ -244,34 +249,35 @@ body{
 
 .invitation{
     display: flex;
+    
     }
 .inviteimg{
-    background-image: url(" photos/NOVEL13.jpg");
+    background-image: url("Image-folder/NOVEL13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-     width: 49vw; 
-     height: 45vw; 
+    width:50vw;
+    height: 50vw;
 }
 .invite{
     background-color: rgb(25, 78, 128);
-    width: 49vw; 
-     height: 45vw; 
+    width: 50vw; 
+     height: 50vw; 
      /* padding-top: 0px; */
-     padding-left: 100px;
+     /* padding-left: 100px; */
      h1{
         display: flex;
-        justify-content: right;
+        /* justify-content: right; */
         font-size: 50px;
         color: white;
         padding-top: 300px;
-        text-align: left;
-        padding-right: 70px;
+        /* text-align: left;/ */
+        /* padding-right: 70px; */
      }
      p{
         display: flex;
         justify-content: center;
-        font-size: xx-large;
+        font-size: larger;
         color: white;
         text-align: center;
      }

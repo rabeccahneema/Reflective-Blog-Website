@@ -289,6 +289,7 @@ h1{
         text-decoration: none;
         color: white;
         font-size: larger;
+        /* padding-bottom: 15px; */
 
     }
     a:hover{

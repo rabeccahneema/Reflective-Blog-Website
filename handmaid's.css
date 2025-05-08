@@ -304,21 +304,38 @@ h2 {
      border: none;
      border-radius: 5%;
  }
- .footer{
-     background-color: orangered;
-     color: orangered;
-     border: 5px solid;
-     /* margin-top: -9%; */
- }
- .foot{
-     background-color: black;
-     color: black;
-     border: 20px solid;
- }
- .foot p{
-     color: white;
-     text-align: center;
- }
+
+.footer-content{
+  margin-top: 5%;
+}
+.footer-content p{
+  font-size: 25px;
+  font-family: typewriter;
+  color: brown;
+  margin-left: 20%;
+}
+.footer-images{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+
+}
+.footer-images img{
+  width: 10%;
+  border: none;
+  border-radius: 10px;
+
+}
+footer{
+margin-top: 2%;
+height: 100%;
+background-color: rgb(80,80,80);
+}
+.copyright p{
+  margin-left: 40%;
+  color:white;
+}
 
  .religiontheme {
     display: flex;
@@ -401,6 +418,7 @@ h2 {
         height: 70px;
         align-items: center;
         background-color: rgb(80,80,80);
+       
       }
       .nav span a{
         font-size: 20px;
@@ -415,8 +433,13 @@ h2 {
         font-size: 15px;
         color: white;
         font-family: poppins;
+        
       }
-     
+     .header{
+        position: sticky;
+        z-index: 999;
+        top: 0;
+     }
     .dropdown {
       position: relative;
       display: inline-block;
